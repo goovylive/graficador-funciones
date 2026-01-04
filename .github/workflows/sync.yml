@@ -16,5 +16,5 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          git remote add space https://goovylive:$HF_TOKEN@huggingface.co/spaces/goovylive/graficador-funciones || true
+          git remote add space https://Goovylive:${{ secrets.HF_TOKEN }}@huggingface.co/spaces/Goovylive/graficador-funciones || true
           git push --force space HEAD:main
