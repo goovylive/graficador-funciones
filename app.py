@@ -54,3 +54,4 @@ if st.button("Graficar"):
     except Exception as e:
         st.error("Error en la función. Verifica la sintaxis.")
         st.error(f"Detalles: {str(e)}")
+# sync
